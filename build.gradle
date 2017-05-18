@@ -46,6 +46,10 @@ dependencies {
     testCompile "org.grails.plugins:geb"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    //mail
+    compile 'org.grails.plugins:mail:2.0.0.RC6'
+    compile 'org.grails.plugins:greenmail:2.0.0.RC3'
 }
 
 bootRun {
